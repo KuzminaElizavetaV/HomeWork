@@ -1,0 +1,10 @@
+﻿Console.Write("Введите 1 число: ");
+int NumberOne = int.Parse(Console.ReadLine());
+Console.Write("Ведите 2 число: ");
+int NumberTwo = int.Parse(Console.ReadLine());
+Console.Write("Введите 3 число: ");
+int NumberThree = int.Parse(Console.ReadLine());
+int Max = NumberOne;
+if (Max < NumberTwo) Max = NumberTwo;
+if (Max < NumberThree) Max = NumberThree;
+Console.WriteLine($"Максимальное число равно {Max}");
